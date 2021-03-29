@@ -1,0 +1,152 @@
+{
+    "main": {
+        "welcome": "welcome zubaer",
+        "english": "English",
+        "arabic": "Arabic",
+        "login": "Login",
+        "imageupload": "Image Uploader"
+    },
+    "leftbar": {
+        "dashboard": "Dashboard",
+        "overview": "Overview",
+        "user": "User",
+        "userlist": "User List",
+        "customerlist": "Customer List",
+        "setting": "Setting",
+        "voucher": "Voucher",
+        "profile": "Profile",
+        "shop": "Shop",
+        "product": "Product",
+        "category": "Category",
+        "branch": "Branch",
+        "page": "Page Setting",
+        "report": "Report",
+        "order": "Order",
+        "coupon": "Coupon",
+        "tablebooking": "Table Booking",
+        "messbooking": "Mess Booking",
+        "conatctus" : "Contact Us"
+    },
+    "dashboard": {
+        "order": "Today's Order",
+        "totalorder": "Total Order",
+        "pendingorder": "Pending Order",
+        "deliverorder": "Total Delivered",
+        "product": "Products",
+        "newcustomer": "New Customer"
+    },
+    "category": {
+        "title": "Category",
+        "titlelist": "Category List",
+        "overview": "Overview",
+        "user": "User",
+        "userlist": "User List",
+        "setting": "Setting",
+        "profile": "Profile",
+        "shop": "Shop",
+        "branch": "Branch"
+    },
+    "subcategory": {
+        "title": "SubCategory",
+        "titlelist": "SubCategory List",
+        "overview": "Overview",
+        "user": "User",
+        "userlist": "User List",
+        "setting": "Setting",
+        "profile": "Profile",
+        "shop": "Shop",
+        "branch": "Branch"
+    },
+    "product": {
+        "title": "Product",
+        "list": "Product List",
+        "add": "Add Product",
+        "general": "General",
+        "link": "Links",
+        "media": "Media",
+        "pricing": "Product Pricing",
+        "cuisinelist": "Cuisine List",
+        "ingredientlist": "Ingredient List",
+        "ingredientcategorylist": "Ingredient Category List",
+        "taglist": "Tag List",
+        "ingredient": "Ingredients",
+        "seo": "SEO",
+        "grouplist":"Group"
+    },
+    "user": {
+        "title": "User",
+        "list": "User List",
+        "deliveryagent": "Delivery Agent List",
+        "customerlist": "Customer List",
+        "driverMap" : "Delivery Agent Map"
+    },
+    "page": {
+        "about": "About Us",
+        "banner": "Banner",
+        "privacy": "Privacy & Policy",
+        "termsandcondition": "Terms & Conditions",
+        "customerlist": "Customer List"
+    },
+    "voucher": {
+        "list": "Voucher List",
+        "add": "Add Voucher",
+        "termsandcondition": "Terms & Conditions",
+        "customerlist": "Customer List"
+    },
+    "report": {
+        "order": "Order",
+        "earning": "Earning",
+        "commission": "Commission",
+        "activitylog": "Activity Log",
+        "add": "Add Voucher",
+        "termsandcondition": "Terms & Conditions",
+        "customerlist": "Customer List"
+    },
+    "order": {
+        "title": "Order",
+        "list": "Order List",
+        "pending": "Pending List",
+        "add": "Add Order",
+        "edit": "Edit Order",
+        "selected": "Selected Item",
+        "orderstatus": "Order Status",
+        "products": "Products",
+        "customerlist": "Customer List",
+        "review": "Review & Rating",
+        "customer": "Customer"
+    },
+    "earning":{
+        "earning": "Today's Earning",
+        "totalearning": "Total Earning",
+        "pendingearning": "Pending Earning",
+        "deliverearning": "Total Delivered"
+       
+    },
+    "commission":{
+        "commission": "Today's Commission",
+        "totalcommission": "Total Commission",
+        "pendingcommission": "Pending Commission",
+        "delivercommission": "Total Delivered"
+    },
+    "activitylog":{
+        "activitylog":"activty"
+    },
+    "tablebooking":{
+        "booktable":"Book a Table",
+        "titlelist":"Table booking List"
+    },
+    "messbooking":{
+        "bookmess":"Book a Mess",
+        "titlelist":"Mess booking List"
+    },
+    "group":
+    {
+        "titlelist":"Group List"
+    },
+    "conatctus":
+    {
+        "list":"Contact Us List"
+    }
+
+
+}

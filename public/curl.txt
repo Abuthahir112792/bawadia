@@ -1,0 +1,29 @@
+curl -X POST -H "Authorization: Bearer AIzaSyCgpE4bgM6WtXuwTcHR2Pf6mq7HiWmycyQ" -H "Content-Type: application/json" -d '{"message": {
+"notification": {
+      "title": "FCM Message",
+      "body": "This is a message from FCM"
+    },
+    "webpush": {
+      "headers": {
+        "Urgency": "high"
+      },
+      "notification": {
+        "body": "This is a message from FCM to web",
+        "requireInteraction": "true",
+        "badge": "/badge-icon.png"
+      }
+    }
+  },
+  "token": "ebu-cfmC6Z5cvE1jv_nrVd:APA91bGmL1l8pSE6LuWs63unbD64QzRCX8voJ-QEhUBJGNe4B4geGH068USmpml6Edow8dL3VWwir-ZHHZNwS3xXvRrewBIK5sXg2TptrqP0U6DPZXriXycXB5Isw7cNMw-TZcUn7H8R"
+  }
+}' "https://fcm.googleapis.com/v1/projects//messages:send"
+
+
+curl -X POST -H "Authorization: Bearer AAAAb3_L4iQ:APA91bGHoQjnPrPIVRox8weBivrLEDaJCkmM0virpga33q7vs2nV1LgL0UVdvvm32hUx1hlv8puApLFn5HlH7z_uXf76s0jdcY2jMth0qWX49BPfo4OM_yA1GpBrfrl1qQhdE2T6nz5J" -H "Content-Type: application/json" -d '{
+"message":{
+   "notification":{
+     "title":"FCM Message",
+     "body":"This is an FCM Message"
+   },
+   "token":"ebu-cfmC6Z5cvE1jv_nrVd:APA91bGmL1l8pSE6LuWs63unbD64QzRCX8voJ-QEhUBJGNe4B4geGH068USmpml6Edow8dL3VWwir-ZHHZNwS3xXvRrewBIK5sXg2TptrqP0U6DPZXriXycXB5Isw7cNMw-TZcUn7H8R"
+}}' https://fcm.googleapis.com/v1/projects/tastaz-test/messages:send

@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+* {
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  }
+  
+body, html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+}
+
+p {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+.text-center {text-align: center;}
+
+
+.p-t-50 {padding-top: 50px;}
+
+ul, li {
+    margin: 0px;
+    list-style-type: none;
+}
+  
+  
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+ 
+  
+  
+.transtext {
+font-family: Poppins-Regular;
+font-size: 25px;
+line-height: 1.5;
+}
+
+  
+.limiter {
+width: 100%;
+margin: 0 auto;
+}
+  
+.container {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #ECE9E6; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+}
+  
+  .wrap{
+    width: 960px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: block;
+    justify-content: space-between;
+    padding: 90px 130px 33px 95px;
+  }
+
+.tick-pic {
+    width: 200px;
+    margin: auto;
+}
+
+.tick-pic img {
+    max-width: 60%;
+}
+
+  .container-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .done-btn {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    background: #00d458;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .done-btn:hover {
+    background: #333333;
+  }
+  .done-btn2 {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    background: #f80103;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .done-btn2:hover {
+    background: #333333;
+  }
+
+  @media (max-width: 992px) {
+    .wrap {
+      padding: 177px 90px 33px 85px;
+    }
+  
+    .tick-pic {
+      width: 35%;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+    .wrap {
+      padding: 100px 80px 33px 80px;
+    }
+  
+    .tick-pic {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .wrap {
+      padding: 100px 15px 33px 15px;
+    }
+  }
+  
+  
